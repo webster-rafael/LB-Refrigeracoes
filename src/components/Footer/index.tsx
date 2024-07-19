@@ -24,7 +24,7 @@ const Footer = () => {
         </nav>
       </div>
       <div className="text-center text-zinc-50 text-lg py-1">
-        Desenvolvido por Webster Dev © 2024
+        Desenvolvido por <a className="underline underline-offset-2" href="https://websterdeveloper.pro">Webster Dev</a> © 2024
       </div>
 
       {onTermos && (
