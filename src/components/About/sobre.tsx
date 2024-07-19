@@ -2,12 +2,12 @@ import { GiConfirmed } from "react-icons/gi";
 
 const Sobre = () => {
   return (
-    <section className="w-full max-w-[1200px] h-full px-3 lg:px-0"  id="sobre">
+    <section className="w-full max-w-[1200px] h-full px-3 lg:px-0" id="sobre">
       <h1 className="text-3xl lg:text-5xl text-zinc-600 font-semibold border-b border-zinc-300">
         Quem somos?
       </h1>
       <div className="w-full h-full grid lg:grid-cols-2 mt-10">
-        <div className="flex flex-col relative h-[700px] p-5">
+        <div className="flex flex-col relative h-full lg:h-[700px] p-5">
           <div className="absolute top-0 left-0 inset-0 bg-background -z-10 opacity-40"></div>
           <p className="text-lg lg:text-2xl">
             Na{" "}
@@ -35,7 +35,7 @@ const Sobre = () => {
             </strong>
             .
           </p>
-          <ul className="w-full flex flex-col space-y-2 py-10">
+          <ul className="w-full h-full flex flex-col space-y-2 py-10">
             <li className="flex gap-2 items-center text-lg text-zinc-600">
               <GiConfirmed className="text-green-600" />
               Equipamentos Modernos
@@ -54,7 +54,7 @@ const Sobre = () => {
             </li>
           </ul>
         </div>
-        <div className="w-full h-[700px] rounded-r-lg">
+        <div className="w-full lg:h-[700px] rounded-r-lg">
           <img
             className="w-full h-full rounded-r-lg"
             src="/banner-2.jpeg"
