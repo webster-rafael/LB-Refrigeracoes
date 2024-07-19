@@ -11,7 +11,7 @@ interface Props {
 
 const CardsService = ({ icone, titulo, paragraf }: Props) => {
   return (
-    <div className="bg-white h-80 p-6 lg:p-4 space-y-2 rounded-md shadow-md">
+    <div className="bg-white -z-10 h-80 p-6 lg:p-4 space-y-2 rounded-md shadow-md">
       <span>
         {icone === "GrConfigure" ? (
           <GrConfigure className="size-8 text-blue-700" />
