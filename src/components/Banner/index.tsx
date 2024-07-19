@@ -16,26 +16,26 @@ const Banner = () => {
             ar-condicionado.
           </h1>
           <div className="xl:w-3/4 justify-start items-start grid grid-cols-4 gap-5 absolute bottom-0">
-            <div className="w-full h-40 flex flex-col justify-center text-2xl text-zinc-50">
+            <div className="w-full h-40 flex flex-col justify-center text-center items-center lg:text-2xl text-zinc-50">
               <FaUsers className="size-10" />
-              <span className="text-3xl font-semibold">3,000+</span>
+              <span className="text-xl lg:text-3xl font-semibold">3,000+</span>
               <span>Clientes</span>
             </div>
-            <div className="w-full h-40 flex flex-col justify-center text-2xl text-zinc-50">
+            <div className="w-full h-40 flex flex-col justify-center text-center items-center lg:text-2xl text-zinc-50">
               <GrConfigure className="size-10" />
-              <span className="text-3xl font-semibold">5,300+</span>
+              <span className="text-xl lg:text-3xl font-semibold">5,300+</span>
               <span>Atendimentos</span>
             </div>
 
-            <div className="w-full h-40 flex flex-col justify-center text-2xl text-zinc-50">
+            <div className="w-full h-40 flex flex-col justify-center text-center items-center lg:text-2xl text-zinc-50">
               <TbBuildingSkyscraper className="size-10" />
-              <span className="text-3xl font-semibold">120+</span>
+              <span className="text-xl lg:text-3xl font-semibold">120+</span>
               <span>Empresas</span>
             </div>
 
-            <div className="w-full h-40 flex flex-col justify-center text-2xl text-zinc-50">
+            <div className="w-full h-40 flex flex-col justify-center text-center items-center lg:text-2xl text-zinc-50">
               <BsHouseUp className="size-10" />
-              <span className="text-3xl font-semibold">5+</span>
+              <span className="text-xl lg:text-3xl font-semibold">5+</span>
               <span>Anos</span>
             </div>
           </div>
