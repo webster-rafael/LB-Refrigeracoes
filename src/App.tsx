@@ -6,16 +6,26 @@ import Formulario from "./components/Formulário";
 import Services from "./components/Services";
 import GaleriaDeServiços from "./components/GaleriaDeServiços";
 
+function sendWhatsAppMessage(phoneNumber: number) {
+  const message = "Olá, tenho uma dúvida";
+  const encodedMessage = encodeURIComponent(message);
+  const url = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
+
+  window.open(url, '_blank');
+}
+
 function App() {
   return (
     <main className="w-full relative">
-      <a
-        className="z-50"
-        href="https://api.whatsapp.com/send?phone=5521989127786&text=Ol%C3%A1,%20tenho%20uma%20d%C3%BAvida!"
-        target="_blank"
-      >
-        <RiWhatsappFill className="text-green-700 fixed bottom-4 size-16 right-4 animate-bounce cursor-pointer" />
-      </a>
+      <div className=" flex items-center justify-center fixed bottom-4 size-16 right-4 z-20">
+        <button
+        onClick={() => sendWhatsAppMessage(21989127786)}
+          className=""
+         
+        >
+          <RiWhatsappFill className="text-green-700 size-16 animate-bounce cursor-pointer" />
+        </button>
+      </div>
 
       <Banner />
       <Services />

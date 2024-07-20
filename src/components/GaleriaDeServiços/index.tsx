@@ -6,7 +6,7 @@ const GaleriaDeServiços = () => {
       className="w-full xl:max-w-[1200px] 2xl:max-w-full font-narrow relative"
       id="service"
     >
-        <div className="absolute top-0 left-0 inset-0 bg-background -z-20 opacity-40"></div>
+      <div className="absolute top-0 left-0 inset-0 bg-background -z-20 opacity-40"></div>
       <div className="w-full max-w-[1200px] h-full py-10 mx-auto flex flex-col justify-center">
         <h1 className="pl-3 lg:pl-0 text-3xl lg:text-5xl text-zinc-600 font-semibold border-b border-zinc-300">
           Galeria de nossos Serviços
