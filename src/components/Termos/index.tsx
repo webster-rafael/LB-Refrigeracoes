@@ -80,7 +80,7 @@ const TermosDeServiço = ({ handleTermosInvisible }: Props) => {
               invalidade ou inexequibilidade de tal disposição não afetará a
               validade das demais disposições destes Termos, que permanecerão em
               pleno vigor e efeito. Se tiver alguma dúvida sobre estes Termos de
-              Serviço, entre em contato conosco em <a className="underline font-bold" href="https://api.whatsapp.com/send?phone=5521978737571&text=Ol%C3%A1,%20tenho%20uma%20d%C3%BAvida!">Entrar em contato</a>.
+              Serviço, entre em contato conosco em <a className="underline font-bold" href="https://api.whatsapp.com/send?phone=5521989127786&text=Ol%C3%A1,%20tenho%20uma%20d%C3%BAvida!">Entrar em contato</a>.
             </p>
           </div>
 

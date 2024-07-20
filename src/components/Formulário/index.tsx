@@ -16,12 +16,13 @@ const Formulario = () => {
   function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
 
-    const phoneNumber = "+5521978737571";
+    const phoneNumber = "+5521989127786";
     const message = `Olá, Meu Nome é ${name}, gostaria de receber ofertas no meu e-mail: ${email}`;
-    const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+    const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
+      message
+    )}`;
 
     window.open(url, "_blank");
-    
   }
   return (
     <section className="w-full h-full my-10 2xl:my-0 px-4 lg:px-0">
@@ -63,7 +64,10 @@ const Formulario = () => {
               />
             </div>
           </label>
-          <button type="submit" className="w-32 py-2 rounded-lg bg-banner text-zinc-50 hover:scale-110">
+          <button
+            type="submit"
+            className="w-32 py-2 rounded-lg bg-banner text-zinc-50 hover:scale-110"
+          >
             Receber Ofertas
           </button>
         </form>

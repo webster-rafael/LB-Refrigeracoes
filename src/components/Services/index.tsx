@@ -29,8 +29,8 @@ const Services = () => {
 
           <CardsService
             icone="AiFillSafetyCertificate"
-            titulo="Garantia de 3 meses"
-            paragraf="Aproveite 3 meses de garantia em nossos serviços e mantenha seu ar condicionado operando com eficiência máxima, economizando energia e prolongando sua vida útil! Com nossa garantia, você pode ficar tranquilo, sabendo que qualquer problema será solucionado rapidamente e sem custos extras. Nossa equipe utilizanda as melhores práticas para assegurar o desempenho ideal do seu equipamento."
+            titulo="Garantia de 6 meses"
+            paragraf="Aproveite 6 meses de garantia em nossos serviços e mantenha seu ar condicionado operando com eficiência máxima, economizando energia e prolongando sua vida útil! Com nossa garantia, você pode ficar tranquilo, sabendo que qualquer problema será solucionado rapidamente e sem custos extras. Nossa equipe utilizanda as melhores práticas para assegurar o desempenho ideal do seu equipamento."
           />
         </div>
       </div>

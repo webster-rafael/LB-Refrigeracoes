@@ -28,12 +28,12 @@ const Header = () => {
           </a>
           <a
             className="uppercase font-narrow font-semibold text-xl hover:border-b-2 hover:border-zinc-200"
-            href="https://api.whatsapp.com/send?phone=5521978737571&text=Ol%C3%A1,%20tenho%20uma%20d%C3%BAvida!"
+            href="https://api.whatsapp.com/send?phone=5521989127786&text=Ol%C3%A1,%20tenho%20uma%20d%C3%BAvida!"
           target="_blank">
             Contato
           </a>
         </nav>
-        <a className="hidden lg:block" href="https://api.whatsapp.com/send?phone=5521978737571&text=Ol%C3%A1,%20tenho%20uma%20d%C3%BAvida!" target="_blank">
+        <a className="hidden lg:block" href="https://api.whatsapp.com/send?phone=5521989127786&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais!" target="_blank">
           <ImWhatsapp className="size-8 hover:scale-125" />
         </a>
       </div>
