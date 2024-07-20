@@ -7,13 +7,13 @@ const Banner = () => {
   return (
     <section className="w-full font-narrow lg:mb-0">
       <div className="w-full h-[600px] 2xl:h-[900px] bg-banner-cel lg:bg-banner xl:bg-banner1366 2xl:bg-banner1920x1080 rounded-b-md shadow-zinc-500 flex">
-        <div className="w-[600px] h-full flex items-center relative mx-5 xl:mx-20 2xl:mx-40">
-          <h1 className="text-zinc-50 text-4xl text-center xl:text-7xl">
-            <span className="bg-gradient-to-r from-blue-600 to-blue-950 p-1 rounded-md font-semibold">
+        <div className="w-[600px] h-full flex items-center justify-center relative mx-5 xl:mx-20 2xl:mx-40">
+          <h1 className="w-80 sm:w-full flex flex-col justify-center items-center text-zinc-50 text-4xl text-center xl:text-6xl 2xl:text-7xl">
+            <span className="p-1 rounded-md font-semibold">
               Especialistas
             </span>{" "}
             em soluções completas para instalação e manutenção de
-            ar-condicionado.
+            <span className="w-[70%] bg-gradient-to-r from-blue-600 to-blue-950 p-1 rounded-md font-semibold">ar-condicionado.</span>
           </h1>
           <div className="xl:w-3/4 justify-start items-start grid grid-cols-4 gap-5 absolute bottom-0">
             <div className="w-full h-40 flex flex-col justify-center text-center items-center lg:text-2xl text-zinc-50">
