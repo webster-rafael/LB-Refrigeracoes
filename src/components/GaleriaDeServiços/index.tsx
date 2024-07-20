@@ -3,10 +3,10 @@ import Grid from "./grid";
 const GaleriaDeServiços = () => {
   return (
     <section
-      className="w-full xl:max-w-[1200px] 2xl:max-w-full font-narrow relative"
+      className="w-full xl:max-w-[1200px] 2xl:max-w-full font-narrow"
       id="service"
     >
-      <div className="w-full max-w-[1200px] z-20 h-full py-10 mx-auto flex flex-col justify-center">
+      <div className="w-full max-w-[1200px] h-full py-10 mx-auto flex flex-col justify-center">
         <h1 className="pl-3 lg:pl-0 text-3xl lg:text-5xl text-zinc-600 font-semibold border-b border-zinc-300">
           Galeria de nossos Serviços
         </h1>
