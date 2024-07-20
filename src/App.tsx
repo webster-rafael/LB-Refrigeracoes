@@ -19,7 +19,7 @@ function App() {
     <main className="w-full relative">
       <div className=" flex items-center justify-center fixed bottom-4 size-16 right-4 z-20">
         <button
-        onClick={() => sendWhatsAppMessage(21989127786)}
+        onClick={() => sendWhatsAppMessage(5521989127786)}
           className=""
          
         >
