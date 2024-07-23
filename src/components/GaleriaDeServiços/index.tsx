@@ -1,3 +1,4 @@
+import ButtonOrçamento from "../Services/button";
 import Grid from "./grid";
 
 const GaleriaDeServiços = () => {
@@ -17,6 +18,7 @@ const GaleriaDeServiços = () => {
           <Grid img="/galeria (3).jpeg" />
           <Grid img="/galeria (4).jpeg" />
         </div>
+        <ButtonOrçamento />
       </div>
     </section>
   );
